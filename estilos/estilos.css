@@ -220,13 +220,46 @@ height: auto;
 
 /*pagina 1*/
 
-/* .main-container{
-    display: flex;
+.main-container1{
+    /* display: flex; */
     width: 100vw;
     height: auto;
     background-color: var(--main-color1);
-    flex-direction: column;
-} */
+    /* flex-direction: column; */
+} 
+
+.main-title-p1{
+    font-size: var(--font-titles);
+    text-align: center;
+}
+
+.main-curiosidades > ol{
+    display: inline-block;
+    font-size: var(--font-text);
+    margin-left: 5rem;
+    margin-top: 1rem;
+    
+}
+
+.container-img1{
+    display: inline;
+}
+
+.img-curiosidades{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    }
+    
+.ref-curiosidades{
+     font-size: 10px;
+    text-align: center;
+    
+}
+
+
 
 
 /*footer*/
