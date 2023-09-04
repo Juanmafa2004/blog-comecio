@@ -260,6 +260,79 @@ height: auto;
 }
 
 
+/*pagina 2*/
+.main-container2{
+    display: flex; 
+    width: 100vw;
+    height: auto;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color1);   
+    padding-bottom: 2.5rem;
+} 
+
+.main-title-p2{
+    font-size: var(--font-titles);
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+.tabla-container-p2{
+    width: 100vw;
+}
+
+.tabla-container-p2 table{
+    
+    border: 0.1rem solid black;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.table-head {
+    font-size: var(--font-titles);
+    background-color: #7c838a;
+}
+
+.table-head th{
+    padding: 2rem 1.5rem;
+    border-right: 0.1rem solid black ;
+}
+
+.table-body{
+    font-size: var(--font-text);
+    background-color: #adbece
+}
+
+.table-body td{
+    padding: 1.2rem 2.2rem;
+   border-bottom: solid 0.1rem black;
+   border-top: solid 0.1rem #0A100D;
+   border-right: 0.1rem solid black ;
+}
+
+.table-img
+{
+width: 150px;
+height: 150px;
+
+}
+.table-video{
+    width: 210px;
+    height: 200px;
+    
+}
+
+.table-foot{
+    background-color: #adbece
+}
+
+.table-foot th{
+    border: 0.1rem solid black ;
+}
+
+/*pagina 3*/
+
 
 
 /*footer*/
