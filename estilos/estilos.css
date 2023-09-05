@@ -5,6 +5,7 @@
     --footer-color: #0A100D;
     --font-titles: 2.7rem;
     --font-text:1.8rem;
+    --font-subtitles:2.4rem;
     font-family:  'Be Vietnam',Helvetica,Arial,Lucida,sans-serif;
 }
 
@@ -229,6 +230,7 @@ height: auto;
 } 
 
 .main-title-p1{
+    padding-top: 1.5rem;
     font-size: var(--font-titles);
     text-align: center;
 }
@@ -238,7 +240,7 @@ height: auto;
     font-size: var(--font-text);
     margin-left: 5rem;
     margin-top: 1rem;
-    
+    padding-bottom: 1rem;
 }
 
 .container-img1{
@@ -256,7 +258,7 @@ height: auto;
 .ref-curiosidades{
      font-size: 10px;
     text-align: center;
-    
+    padding-bottom: 1.9rem;
 }
 
 
@@ -333,6 +335,49 @@ height: 150px;
 
 /*pagina 3*/
 
+
+.main-competencias > ul{
+    display: inline-block;
+    font-size: var(--font-text);
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    list-style: none;
+}
+
+.second-list{
+    list-style: square;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 3rem;
+}
+.second-list li{
+    padding-bottom: 1rem ;
+}
+.container-img1{
+    display: inline;
+}
+
+.main-subtitle{
+    text-align: center;
+    font-size: var(--font-subtitles);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.img-curiosidades{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    }
+    
+.ref-curiosidades{
+     font-size: 10px;
+    text-align: center;
+    
+}
 
 
 /*footer*/
