@@ -379,6 +379,34 @@ height: 150px;
     
 }
 
+/*Pagina 4*/
+.table-head1 {
+    font-size: var(--font-titles);
+    background-color: #7c838a;
+}
+.table-head1 th{
+    padding: 2rem 1.5rem;
+    border-right: 0.1rem solid black ;
+}
+.table-body1{
+    font-size: var(--font-text);
+    background-color: #adbece
+}
+.table-body1 td{
+    padding: 1.2rem 2.2rem;
+   border-bottom: solid 0.1rem black;
+   border-top: solid 0.1rem #0A100D;
+   border-right: 0.1rem solid black ;
+}
+.table-foot1{
+    background-color: #adbece
+}
+
+.table-foot1 th{
+    border: 0.1rem solid black ;
+}
+
+
 
 /*footer*/
 .end{
