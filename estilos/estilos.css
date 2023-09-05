@@ -240,9 +240,12 @@ height: auto;
     font-size: var(--font-text);
     margin-left: 5rem;
     margin-top: 1rem;
-    padding-bottom: 1rem;
 }
 
+.main-curiosidades li {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 .container-img1{
     display: inline;
 }
@@ -382,7 +385,7 @@ height: 150px;
 /*Pagina 4*/
 .table-head1 {
     font-size: var(--font-titles);
-    background-color: #7c838a;
+    background-color: #479b6d;
 }
 .table-head1 th{
     padding: 2rem 1.5rem;
@@ -390,7 +393,7 @@ height: 150px;
 }
 .table-body1{
     font-size: var(--font-text);
-    background-color: #adbece
+    background-color: #7fc2a6;
 }
 .table-body1 td{
     padding: 1.2rem 2.2rem;
@@ -399,13 +402,16 @@ height: 150px;
    border-right: 0.1rem solid black ;
 }
 .table-foot1{
-    background-color: #adbece
+    background-color: #7fc2a6;
 }
 
 .table-foot1 th{
     border: 0.1rem solid black ;
 }
 
+/*Pagina 5 hecha similar a la 1*/
+
+/*Pagina 6*/
 
 
 /*footer*/
