@@ -522,6 +522,22 @@ height: 180px;
 }
 
 
+/*pagina 10 como pagina 9*/
+/*pagina 11*/
+.container-img11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-curiosidades1l {
+    width: 400px;
+    height: 400px;
+}
+
+/*pagina 12*/
+
 
 /*footer*/
 .end{
