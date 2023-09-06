@@ -1,7 +1,8 @@
 */imagenes
 */video
-
+*/audios
 *.jpg*
 *.png*
 *.jpeg*
 *.mp4*
+*.mp3

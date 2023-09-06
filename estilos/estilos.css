@@ -574,6 +574,44 @@ height: 180px;
     border: 0.1rem solid black ;
 }
 
+/*pagina 14*/
+
+.main-container13{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: var(--main-color1);
+    flex-direction: column;
+} 
+
+.main-title-p13{
+    padding-top: 1.5rem;
+    font-size: var(--font-titles);
+    text-align: center;
+}
+.main-music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.audio{
+    padding-bottom: 1.2rem;
+    padding-top: 1rem;
+    margin-left: 10%;
+}
+.main-music > ol{
+    display: inline-block;
+    font-size: var(--font-text);
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.main-music li {
+    padding-top: 1.2rem;
+    padding-bottom: 2rem;
+}
+/*pagina 15*/
+
 /*footer*/
 .end{
     display: flex;
