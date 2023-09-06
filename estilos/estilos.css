@@ -415,6 +415,53 @@ height: 150px;
 
 /*Pagina 7  hecha similar a la 1*/
 
+/*Pagina 8*/
+
+.tabla-container-p8{
+    width: 100vw;
+}
+
+.tabla-container-p8 table{
+    
+    border: 0.1rem solid black;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.table-head3 {
+    font-size: var(--font-titles);
+    background-color: #8f3347;
+}
+
+.table-head3 th{
+    padding: 2rem 1.5rem;
+    border-right: 0.1rem solid black ;
+}
+
+.table-body3{
+    font-size: var(--font-text);
+    background-color: #d38d8d;
+}
+
+.table-body3 td{
+    padding: 1.2rem 2.2rem;
+   border-bottom: solid 0.1rem black;
+   border-top: solid 0.1rem #0A100D;
+   border-right: 0.1rem solid black ;
+}
+.table-foot3{
+    background-color:  #d38d8d;
+}
+
+.table-foot3 th{
+    border: 0.1rem solid black ;
+}
+
+.table-img1
+{
+width: 290px;
+height: 180px;
+}
 
 /*footer*/
 .end{
