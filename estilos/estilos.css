@@ -541,7 +541,38 @@ height: 180px;
     height: 200px;
 }
 /*pagina 12 hecha como la número 4*/
+/* pagina 13*/
+.tabla-container-p13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.table-head13 {
+    font-size: var(--font-titles);
+    background-color: #be9250;
+}
+.table-head13 th{
+    padding: 2rem 1.5rem;
+    border-right: 0.1rem solid black ;
+}
+.table-body13{
+    font-size: var(--font-text);
+    background-color: #c2ab7f;
+}
+.table-body13 td{
+    padding: 1.2rem 2.2rem;
+   border-bottom: solid 0.1rem black;
+   border-top: solid 0.1rem #0A100D;
+   border-right: 0.1rem solid black ;
+}
+.table-foot13{
+    background-color: #c2ab7f;
+}
+
+.table-foot13 th{
+    border: 0.1rem solid black ;
+}
 
 /*footer*/
 .end{
