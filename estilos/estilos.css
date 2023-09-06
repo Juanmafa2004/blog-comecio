@@ -463,6 +463,66 @@ width: 290px;
 height: 180px;
 }
 
+/*pagina 9*/
+.main-container2{
+    /* display: flex; */
+    width: 100vw;
+    height: auto;
+    background-color: var(--main-color1);
+    /* flex-direction: column; */
+} 
+
+.main-title-p9{
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: var(--font-titles);
+    text-align: center;
+}
+
+.main-curiosidades9 > ol{
+    display: inline-block;
+    font-size: var(--font-text);
+    list-style: none;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.main-curiosidades9 li {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.container-img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-curiosidades1{
+    width: 450px;
+    height: 250px;
+
+
+    }
+.container-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-p9{
+    width: 600px;
+    height: 400px;
+   
+}
+    
+.ref-curiosidades{
+     font-size: 10px;
+    text-align: center;
+    padding-bottom: 1.9rem;
+}
+
+
+
 /*footer*/
 .end{
     display: flex;
