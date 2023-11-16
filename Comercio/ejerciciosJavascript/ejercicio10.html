@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/estilos.css">
+    <link rel="icon" type="image/png" href="./imagenes/logo2.png">
+    <title>Game Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <i class="fa-solid fa-gamepad" style="color: #87f06a;"></i>
+                    <h1 class="logo"><a href="./index.html">Game Shop</a>
+                    </h1>
+                </div>  
+                <div class="container-user">
+                    <a href="../login.html"><i class="fa-regular fa-user"></i></a>
+                    <a href="../enprogreso.html"> <i class="fa-solid fa-basket-shopping"></i></a>
+                    <div class="content-shopping-cart">
+                        <span class="text"><a href="../enprogreso.html">Carrito de compras</a></span>
+                        <span class="number">[0]</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../tarjeta_regalo.html">Tarjetas de regalo </a></li>
+                    <li><a href="../consolas.html">Consolas</a></li>
+                     <li><a href="../ejerciciosJS.html">Ejercicios</a></li>
+                    <li><a href="/index.html">Blog</a></li>
+                </ul>
+            
+
+            </nav>
+        </div>
+
+    </header>
+    <main class="main-content">
+        <section class="centrar">
+            <h1>Universidad Ecci</h1>
+            <h2>Nomina de Empleados</h2>
+
+            <table border="1" class="tablaNomina">
+                    <thead>
+                    <th colspan="2">Informacion del Empleado</th>
+                    </thead>
+                    <tr>
+                        <th>Tipo de Documento</th>
+                        <th><select name ="tipo_documento" id="tipo_documento">
+                            <option value="1">Cedula de Ciudadania</option>
+                            <option value="2">Pasaporte</option>
+                            <option value="3">Cedula de Extranjeria</option>
+                            <option value="4" selected>Otro</option>
+                        </select></th>
+                    </tr>
+                    <tr>
+                        <th>Numero de Documento</th>
+                        <th><input type="text" name = "numero" id="numero" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Nombre del Empleado</th>
+                        <th><input type="text" name = "nombre" id="nombre" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Salario del Empleado</th>
+                        <th><input type="text" name ="salario" id="salario" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Dias Laborados</th>
+                        <th><input type="text" name="dias" id="dias" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Horas Extras Diurnas</th>
+                        <th><input type="text" name ="hed" id="hed" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Horas Extras Nocturnas</th>
+                        <th><input type="text" name="hen" id="hen" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Horas Extras Festivas Diurnas</th>
+                        <th><input type="text" name="hefd" id="hefd" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Horas Extras Festivas Nocturnas</th>
+                        <th><input type="text" name= "hefn" id="hefn" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Salarios Devengados por el Empleado</th>
+                    </tr>
+                    <tr>
+                        <th>Sueldo</th>
+                        <th><input type="text" name="sueldo" id="sueldo" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Auxilio de Transporte</th>
+                        <th><input type="text" name="auxilio_transporte" id="auxilio_transporte" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Valor Horas Extras Diurnas</th>
+                        <th><input type="text" name="vhed" id="vhed" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Valor Horas Extras Nocturnas</th>
+                        <th><input type="text" name="vhen" id="vhen" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Valor Horas Extras Festivas Diurnas</th>
+                        <th><input type="text" name="vhefd" id="vhefd" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Valor Horas Extras Festivas Nocturnas</th>
+                        <th><input type="text" name="vhefn" id="vhefn" size="40"></th>
+                    </tr>
+                    <tr>
+                    <th>Tiene Recargo Nocturno
+                    Si<input type="radio" name="rn" value="si"id="rn1">
+                    No<input type="radio" name="rn" value="no"id="rn2">
+                    </th>
+                    <th><input type="text" name="recargo_nocturno" id="recargo_nocturno" size="40"></th>
+                    </tr>            
+                    <tr>
+                        <th>Total Devengado</th>
+                        <th><input type="text" name="total_devengado" id="total_devengado" size="40"></th>
+                    </tr>
+                    <tr>
+                    <th colspan="2">Salarios Deducidos al Empleado</th>
+                    </tr>
+                    <tr>
+                        <th>Salud</th>
+                        <th><input type="text" name="salud" id="salud" size="40"></th>
+                    </tr>
+                    <tr>
+                        <th>Pension</th>
+                        <th><input type="text" name="pension" id="pension" size="40"></th>
+                    </tr>
+                    <tr>
+                    <th>Prestamos</th>
+                    <th><input type="text" name="prestamos" id="prestamos" size="40"></th>
+                </tr>
+                <tr>
+                    <th>Fondo de Solidaridad</th>
+                    <th><input type="text" name="fondo_solidaridad" id="fondo_solidaridad" size="40"></th>
+                </tr>
+                <tr>
+                    <th>Total Deducido</th>
+                    <th><input type="text" name="total_deducido" id="total_deducido" size="40"></th>
+                </tr>
+                <tr>
+                    <th colspan="2">Neto Pagado</th>
+                </tr>
+                <tr>
+                    <th>Neto Pagado</th>
+                    <th><input type="text" name="neto_pagado" id="neto_pagado" size="40"></th>
+                </tr>
+                <tr class="tableFinal">
+                    <th>
+                    <button type="submit" onclick="calcular();">
+                    Enviar
+                    </button>
+                    </th>
+                    <th><button type="reset" onclick="limpiar();">
+                    Borrar
+                    </button>
+                    </th>
+                </tr>      
+            </table>
+        </section>
+         
+    </main>
+
+ <footer class="footer 2">
+    <div class="container container-footer">
+        <div class="menu-footer">
+            <div class="contact-info">
+                <p class="title-footer">Redes sociales</p>
+                    <div class="social-icons">
+                        <span class="facebook">
+                           <a href="https://es-la.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f"></i></a>
+
+                        </span> 
+                        <span class="twitter"> 
+                           <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-x-twitter"></i></i></a>
+                        </span>
+                        <span class="youtube">
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        </span>
+                        <span class="instagram">
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            
+                        </span>
+                    </div>
+                
+            </div>
+        
+       
+
+        <div class="information">
+            <p class="title-footer">
+                información
+            </p>
+            <ul>
+                <li><a href="../p&a.html">Preguntas frecuentes</a></li>
+                <li><a href="../acerca_de_nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="../contactanos.html">Contactanos</a></li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>
+                Desarollado por Juan Manuel Forero &copy; 2023
+            </p>
+            <img src="../imagenes/payment.png" alt="Pagos">
+        </div>
+    </div>
+</div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2b9f9af58c.js" crossorigin="anonymous"></script>
+    <script src="/js/ejercicios10.js"></script>
+</body>
+</html>

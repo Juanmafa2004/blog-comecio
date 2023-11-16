@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/estilos.css">
+    <link rel="stylesheet" href="../styles/estilos.css">
     <link rel="icon" type="image/png" href="./imagenes/logo2.png">
     <title>Game Commerce</title>
 </head>
@@ -11,58 +11,62 @@
     <header>
         <div class="container-hero">
             <div class="container hero">
-           
                 <div class="container-logo">
                     <i class="fa-solid fa-gamepad" style="color: #87f06a;"></i>
                     <h1 class="logo"><a href="./index.html">Game Shop</a>
                     </h1>
                 </div>  
                 <div class="container-user">
-                    <a href="./login.html"><i class="fa-regular fa-user"></i></a>
-                    <a href="./enprogreso.html"> <i class="fa-solid fa-basket-shopping"></i></a>
+                    <a href="../login.html"><i class="fa-regular fa-user"></i></a>
+                    <a href="../enprogreso.html"> <i class="fa-solid fa-basket-shopping"></i></a>
                     <div class="content-shopping-cart">
-                        <span class="text"><a href="./enprogreso.html">Carrito de compras</a></span>
+                        <span class="text"><a href="../enprogreso.html">Carrito de compras</a></span>
                         <span class="number">[0]</span>
                     </div>
 
                 </div>
             </div>
         </div>
+
         <div class="container-navbar">
             <nav class="navbar container">
                 <i class="fa-solid fa-bars"></i>
                 <ul class="menu">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./tarjeta_regalo.html">Tarjetas de regalo</a></li>
-                    <li><a href="./consolas.html">Consolas</a></li>
-                    <li><a href="./ejerciciosJS.html">Ejercicios</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../tarjeta_regalo.html">Tarjetas de regalo </a></li>
+                    <li><a href="../consolas.html">Consolas</a></li>
+                     <li><a href="../ejerciciosJS.html">Ejercicios</a></li>
                     <li><a href="/index.html">Blog</a></li>
                 </ul>
             
 
             </nav>
         </div>
-    </header>
 
-    <main class="main-content3">
-        <div class="container-qa">
-            <div class="qa">
-            <ul>
-                <li>¿Cuáles son los métodos de pago aceptados?</li>
-                <p>Aceptamos tarjetas de crédito/débito, PayPal y transferencias bancarias como métodos de pago.</p>
-                <li>¿Cuánto tiempo se tarda en recibir mi pedido?</li>
-                <p>Tan pronto confirmemos la llegada de tu pago tu producto digital llegara de inmediato, si se trata de productos fisicos el tiempo demorara, de  acuerdo a tu ubicación.</p>
-                <li>¿Cuál es la política de devolución de productos?</li>
-                <p>Para los productos digitales como juegos será máximo dos horas desde su compra y para productos fisicos serán desde 30 días posterior a la compra.</p>
-                <li>¿Tienen ofertas o descuentos especiales?</li>
-                <p>Sí cada semana hay ciertos productos que entran en rebaja y en temporadas especiales la mayoria de los productos tienen descuento.</p>
-                <li>¿En caso de olvidar la contraseña que debo hacer?</li>
-                <p>Desde el mismo inicio de sesión puedes acceder al apartado de "¿olvidaste tu contraseña?" desde ahi solo sigue el paso a paso y en poco tiempo te llega un correo para que la restablezca.</p>
-           </ul>
+    </header>
+    <main class="main-content">
+        <div class="containerOperacion">
+            <div class="enunciado4">
+                <h1>Ejercicio 8</h1>
+                <div class="container-ej1">
+                    <label for="gallinasInput">Número de gallinas:</label>
+                    <input type="number" class="gallinasInput" placeholder="Ingrese el número de gallinas">
+                    <label for="diasInput">Número de días:</label>
+                    <input type="number" class="diasInput" placeholder="Ingrese el número de días">
+                    
+                </div>
             </div>
-        </div>
-        
+            <div class="operadores2">
+                <button  class="btn8">Calcular Producción</button>
+            </div>
+            <div class="container-r5">
+                <p class="resultadoProduccion"></p>
+            </div>
+            
+        </div>     
+         
     </main>
+
  <footer class="footer 2">
     <div class="container container-footer">
         <div class="menu-footer">
@@ -94,9 +98,9 @@
                 información
             </p>
             <ul>
-                <li><a href="./p&a.html">Preguntas frecuentes</a></li>
-                <li><a href="./acerca_de_nosotros.html">Acerca de nosotros</a></li>
-                <li><a href="./contactanos.html">Contactanos</a></li>
+                <li><a href="../p&a.html">Preguntas frecuentes</a></li>
+                <li><a href="../acerca_de_nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="../contactanos.html">Contactanos</a></li>
             </ul>
         </div>
 
@@ -104,12 +108,12 @@
             <p>
                 Desarollado por Juan Manuel Forero &copy; 2023
             </p>
-            <img src="imagenes/payment.png" alt="Pagos">
+            <img src="../imagenes/payment.png" alt="Pagos">
         </div>
     </div>
 </div>
     </footer>
     <script src="https://kit.fontawesome.com/2b9f9af58c.js" crossorigin="anonymous"></script>
-
+    <script src="/js/ejercicio8.js"></script>
 </body>
 </html>

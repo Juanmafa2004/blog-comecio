@@ -1222,3 +1222,301 @@ font-weight: 700;
     color: rgb(255, 255, 255);
 } */
 
+/*Pagina de ejercicios*/
+.ejercicios_js{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 1rem; */
+    /* padding-top: 3rem; */
+    margin-bottom: 10%;
+   margin-top: 10rem;
+   padding-bottom: 1rem;
+   color: var(--main-color1);
+}
+
+
+.contenedor-lista{
+    background-color: var(--header-color2);
+    display: flex;
+    padding: 6rem;
+    border: solid .1rem black;
+    border-radius: 10%;
+    flex-direction: column;
+}
+
+.contenedor-lista h1{
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.contenedor-lista ul, .contenedor-lista ul a {
+    font-size: 1.6rem;
+    text-align: center;
+    list-style: none;
+}
+
+.contenedor-lista ul a:hover{
+    color: var(--header-color1);
+}
+
+
+/*Ejercicio 1*/
+.containerOperacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 8rem;
+}
+.enunciado1{
+    padding-bottom: 2rem;
+}
+.enunciado1 h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.container-ej1 span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 1.8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.operadores{
+    display: flex;
+    align-items: center;
+}
+.operadores button{
+    width: 10rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
+.resultadoEj1{
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+
+/* EJERCICIO2 */
+.containerFunciones{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 8rem;
+}
+.containerFunciones h1, .containerFunciones h2{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.containerFunciones ul {
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.8rem;
+}
+
+.containerFunciones li{
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.funcion1 p, .funcion2 p, 
+.funcion3 p, .funcion4 p,.funcion5 p,
+.funcion6 p,.funcion7 p,
+.funcion8 p,.funcion9 p,.funcion10 p
+{
+    padding-top: 1rem;
+    font-weight: 200;
+}
+
+.funcion1 .btnf1,.funcion2 .btnf2,
+.funcion3 .btnf3,.funcion4 .btnf4,
+.funcion5 .btnf5,.funcion6 .btnf6,
+.funcion7 .btnf7,.funcion8 .btnf8,
+.funcion9 .btnf9,.funcion10 .btnf10
+{
+    height: 5rem;
+    width: 8.5rem;
+}
+.funcion1 span,.funcion2 span ,
+.funcion3 span,.funcion4 span,
+.funcion5 span,.funcion6 span,
+.funcion7 span,.funcion8 span,
+.funcion9 span,.funcion10 span{
+    margin-left: 2rem;
+}
+
+/*EJERCICIO 3*/
+
+
+.containerOperacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 8rem;
+}
+.enunciado3{
+    padding-bottom: 2rem;
+}
+.enunciado3 h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.container-ej1 span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 1.8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.operadores2 button{
+    width: 10rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
+.resultadoEj3, .contadorEj3{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+/*Ejercicio 4
+Se tiene registrado la producción (unidades) logradas por un operario a lo largo de la semana (lunes a sábado). Elabore una solución que nos muestre si el operario recibirá incentivos, y cuanto es su salario semanal, de acuerdo a la siguiente tabla, sabiendo que el promedio de producción mínima es de 100 unidades. 
+*/
+
+.enunciado4{
+    padding-bottom: 2rem;
+}
+.enunciado4 h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.container-ej1 span{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 1.8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.operadores2 button{
+    width: 10rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
+.resultadoEj4{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+/* Ejercicio 5 */
+
+.container-r5{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+.container-r5 h2{
+    margin-bottom: 1.2rem;
+}
+
+/*Ejercicio 6
+Hacer un algoritmo que una cantidad de números definidos por el usuario e imprima cuantos son positivos, cuantos son negativos y cuantos son neutros, además la sumatoria de los positivos y negativos. 
+*/
+.container-ej1 label{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 1.8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Ejercicio 7
+Una persona desea realizar un muestreo con n personas para determinar el promedio de peso de los niños, jóvenes, adultos y viejos que existen en su zona habitacional y cuantos son de cada uno de las categorías. Se determinan las categorías con base en la siguiente tabla */
+
+.operadores2 .agregar{
+    display: inline;
+}
+
+/*Ejercicio 8
+Un Proceso de producción de huevos en un corral se da a través de la siguiente ecuación
+
+E=1+x+x22!+…+ xnn!
+ 
+Donde x representa el numero de gallinas y n el numero de dias, halle la produccion para un numero de gallinas x y un numero de dias n, digitados por el usuario
+*/
+
+
+/*Ejercicio 9 
+Elaborar una aplicación que almacene en una matriz los estudiantes, las materias cursadas, las notas, halle promedio de cada materia y de cada estudiante.
+*/
+
+.outputMatrix{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/*Ejercicio 10
+Nomina*/
+.centrar{
+padding-bottom: 9rem;
+}
+.centrar h1{
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+.centrar h2{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tablaNomina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--header-color2);
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+.tablaNomina thead{
+    font-size: 2rem;
+}
+.tablaNomina tr {
+    font-size: 1.8rem;
+}
+.tableFinal th{
+    padding: 2rem;
+}
+.tableFinal button{
+    width: 8rem;
+    height: 5rem;
+}
+
+#rn1, #rn2{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
